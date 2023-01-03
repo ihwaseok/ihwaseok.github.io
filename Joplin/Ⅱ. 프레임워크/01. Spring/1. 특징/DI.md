@@ -1,0 +1,63 @@
+---
+title: DI
+updated: 2022-12-11 08:45:36Z
+created: 2022-12-08 06:07:09Z
+latitude: 37.26357270
+longitude: 127.02860090
+altitude: 0.0000
+---
+
+## Dependecy Injection (의존성 주입)
+- 객체를 직접 생성하는 게 아니라 외부에서 생성한 후 주입을 시켜주는 방식
+-  A라는 객체에서 B, C객체를 사용할 때 외부(IoC컨테이너)에서 생성된 B, C객체를 주입시켜 Setter 혹은 생성자를 통해 사용
+-  프레임워크에 의해 동적으로 주입되므로 여러 객체 간의 결합이 줄어든다
+<br>
+
+## 장점
+- 종속성 감소
+- 재사용성 증가
+- 더 많은 테스트코드 생성 가능
+- 코드가 읽기 쉬워짐
+<br>
+
+## 의존성 주입 방법
+- 생성자를 통한 전달
+  테스트가 용이하고 객체 불변성이 확보 가능하여 가장 권장되는 형태
+```java
+@Controller
+public class TestController {
+    private final TestService testService;
+
+    @Autowired
+    public TestController(TestService testService) {
+        this.testService = testService;
+    }
+}
+```
+- Setter()를 통한 전달
+주입되는 객체가 변경될 가능성이 있을 경우 사용
+```java
+@Controller
+public class TestController {
+    private TestService testService;
+
+    @Autowired
+    public void setTestService(TestService testService) {
+        this.testService = testService;
+    }
+}
+``` 
+- 멤버 변수를 통한 전달
+ 프레임워크 의존적이고 외부에서 수정이 불가능하여 추천되지 않음
+```java
+@Controller
+public class TestController {
+	
+    @Autowired
+    TestService testService;
+}
+```
+<br>
+	
+
+

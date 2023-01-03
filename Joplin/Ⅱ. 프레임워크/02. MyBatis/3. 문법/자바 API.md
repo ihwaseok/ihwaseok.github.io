@@ -1,0 +1,45 @@
+---
+title: 자바 API
+updated: 2022-12-23 06:10:23Z
+created: 2022-12-23 06:10:19Z
+latitude: 37.24108640
+longitude: 127.17755370
+altitude: 0.0000
+---
+
+## 자바 API
+- 어노테이션을 제공하여 Mapper 인터페이스에서 쿼리를 작성할 수 있다
+- 주로 DB의 프로시저를 실행 시킬때 사용
+<br>
+```java
+public interface TestMapper {
+	
+	@Update("{ CALL TEST_PROCEDURE ( "
+			+	 "#{resultMap.input, mode=IN, jdbcType=VARCHAR} "
+			+	 ", #{resultMap.out_status, mode=OUT, jdbcType=VARCHAR} "
+			+ 	 ", #{resultMap.out_result, mode=OUT, jdbcType=VARCHAR} "
+			+ ") } ")
+	@Options(statementType = StatementType.CALLABLE) // 프로시저에서 out으로 지정한 값들을 반환하는 옵션
+	public void runTestProcedure(@Param("resultMap") Map<String, Object> result) throws DataAccessException;
+}
+```
+```java
+@Service
+public class TestServiceImpl implements TestService {
+
+	@Autowired
+	private TestMapper testMapper;
+	
+	@Transactional
+	@Override
+	public Map<String, Object> runTestProcedure(String input) {
+		Map<String, Object> result = new HashMap<String, Object>();
+		result.put("input", input);
+		result.put("out_status", "");
+		result.put("out_result", "");
+		testMapper.runTestProcedure(result);
+		
+		return result;
+	}
+}
+```

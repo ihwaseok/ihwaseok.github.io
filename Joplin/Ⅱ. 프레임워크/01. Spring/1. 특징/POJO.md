@@ -1,0 +1,44 @@
+---
+title: POJO
+updated: 2022-12-11 08:51:21Z
+created: 2022-12-08 06:06:18Z
+latitude: 37.26357270
+longitude: 127.02860090
+altitude: 0.0000
+---
+
+## Plain Old Java Object
+- 객체지향적인 원리에 충실하면서, 특정 환경과 규약에 종속되지 않아 필요에 따라 재사용 될 수 있게 설계된 오브젝트
+- 개발자가 비지니스 로직 외의 <ins>로우레벨</ins><sup>1</sup> 까지 직접 JDK를 사용하여 구현하기 쉽지 않음
+→ EJB(Enterprise Java Beans)를 사용해 보안 하였으나, EJB기능을 사용하기 위하여 리소스 낭비가 심해짐 (WAS 무조건 사용 등)
+→ 의존성이 없고 테스트가 용이하며 추후 수정이 편리한 단순한 자바 오브젝트인 POJO 사용
+<br>
+
+## POJO의 조건
+- 특정 규약에 종속되지 않는다 (특정 라이브러리를 상속받아 구현하지 않는다)
+- 특정 환경에 종속되지 않는다
+- 단일 책임 원칙을 지키는 클래스 (모듈화)
+<br>
+
+## 장점
+- 특정 규약에 종속되지 않아 객체지향 설계를 할 수 있게 됨
+- 특정 규약에 종속되지 않아 로우레벨 코드와 비즈니스 코드가 분리되어 깔끔한 코드 작성이 가능
+- 특정 환경에 종속되지 않아 테스트 하기 좋음
+<br>
+
+```java
+public class UserDTO {
+	private String userName;
+	
+	public String getUserName() {
+		return userName;
+	}
+	
+	public void setUserName(String userName) {
+		this.userName = userName;
+	}
+}
+```
+
+---
+**로우레벨**<sup>1</sup> = 트랜잭션, 멀티스레드, 보안 기능 등

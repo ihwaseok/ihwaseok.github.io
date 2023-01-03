@@ -1,0 +1,28 @@
+---
+title: MVC 구조
+updated: 2022-12-12 05:47:33Z
+created: 2022-12-08 06:15:10Z
+latitude: 37.26357270
+longitude: 127.02860090
+altitude: 0.0000
+---
+
+## Model View Controller 구조
+- 애플리케이션을 세 개의 영역으로 분할하고 각 구성 요소에게 고유한 역할을 부여하는 개발 방식
+- 비즈니스 로직 영역과 UI 영역이 분리되므로 서로 영향을 주지 않고 유지보수가 가능
+- Model &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; = DB와 상호작용하며 비즈니스 로직을 처리하는 모듈
+- View &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; = Client에게 보여지는 결과 화면을 반환하는 모듈
+- Controller &nbsp; = Client 요청이 들어왔을 때 그 입력을 처리하고 어떤 로직을 실행시킬 것인지 제어하는 모듈
+- Spring MVC는 Dispatcher Servlet 등장으로 web.xml의 역할이 축소
+→ Dispatcher Servlet이 해당 어플리케이션으로 들어오는 요청을 모두 핸들링하기 때문
+
+<img src="../../../_resources/caa019d13568317df00096dbb5ecd4a1.png" width="800"/>
+
+<blockquote>
+1. Dispatcher Servlet이 Client요청을 받음 (중앙 제어실과 같음)<br>
+2. Handler Mapping이 알맞은 Controller를 찾음<br>
+3. Handler Mapping에 실행할 Controller의 메서드를 찾음<br>
+4. Controller의 메서드를 실행하며 그 결과 Model로서 Dispatcher Servlet에 반환<br>
+5. View Resolver는 알맞은 JSP파일을 찾음<br>
+6. View는 JSP파일을 Model의 정보를 토대로 Client에게 반환
+</blockquote>
