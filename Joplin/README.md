@@ -1,11 +1,3 @@
----
-sort: 15
----
+# I'm Joplin
 
-# Test Documentation
-
-```
-{% raw %}{% include list.liquid all=true %}{% endraw %}
-```
-
-{% include list.liquid all=true %}
+source: `{{ page.path }}`
