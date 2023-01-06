@@ -1,0 +1,200 @@
+entries:
+- title: sidebar
+  product: Ⅱ. 프레임워크
+  folders: 
+
+  - title: 개요
+    url: /Ⅱ.=프레임워크_개요.html
+    output: web
+    type: single
+
+  - title: 01. Spring
+    output: web
+    folderitems: 
+
+      - title: 개요
+        url: /Ⅱ.=프레임워크_01.=Spring_개요.html
+        output: web
+
+      - title: 1. 특징
+        output: web
+        type: subfolder
+        subfolderitems : 
+
+        - title: "AOP 지원"
+          url: /Ⅱ.=프레임워크_01.=Spring_1.=특징_AOP=지원.html
+          output: web
+
+        - title: "DI"
+          url: /Ⅱ.=프레임워크_01.=Spring_1.=특징_DI.html
+          output: web
+
+        - title: "IoC"
+          url: /Ⅱ.=프레임워크_01.=Spring_1.=특징_IoC.html
+          output: web
+
+        - title: "MVC 구조"
+          url: /Ⅱ.=프레임워크_01.=Spring_1.=특징_MVC=구조.html
+          output: web
+
+        - title: "POJO"
+          url: /Ⅱ.=프레임워크_01.=Spring_1.=특징_POJO.html
+          output: web
+
+        - title: "PSA"
+          url: /Ⅱ.=프레임워크_01.=Spring_1.=특징_PSA.html
+          output: web
+
+        - title: "개요"
+          url: /Ⅱ.=프레임워크_01.=Spring_1.=특징_개요.html
+          output: web
+
+        - title: "트랜잭션 지원"
+          url: /Ⅱ.=프레임워크_01.=Spring_1.=특징_트랜잭션=지원.html
+          output: web
+
+      - title: 2. Spring Boot
+        output: web
+        type: subfolder
+        subfolderitems : 
+
+        - title: "개요"
+          url: /Ⅱ.=프레임워크_01.=Spring_2.=Spring=Boot_개요.html
+          output: web
+
+        - title: "1) MVC패턴 구현"
+          url: /#
+          output: web
+          
+        - title: "&emsp;개요"
+          url: /Ⅱ.=프레임워크_01.=Spring_2.=Spring=Boot_1)=MVC패턴=구현_개요.html
+          output: web
+
+        - title: "&emsp;01. 폴더 계층구조 형성"
+          url: /Ⅱ.=프레임워크_01.=Spring_2.=Spring=Boot_1)=MVC패턴=구현_01.=폴더=계층구조=형성.html
+          output: web
+
+        - title: "&emsp;02. Entity에서 java파일 생성"
+          url: /Ⅱ.=프레임워크_01.=Spring_2.=Spring=Boot_1)=MVC패턴=구현_02.=Entity에서=java파일=생성.html
+          output: web
+
+        - title: "&emsp;03. Dto에서 java파일 생성"
+          url: /Ⅱ.=프레임워크_01.=Spring_2.=Spring=Boot_1)=MVC패턴=구현_03.=Dto에서=java파일=생성.html
+          output: web
+
+        - title: "&emsp;04. Mapper에서 java파일 생성"
+          url: /Ⅱ.=프레임워크_01.=Spring_2.=Spring=Boot_1)=MVC패턴=구현_04.=Mapper에서=java파일=생성.html
+          output: web
+
+        - title: "&emsp;05. Repository에서 java파일 생성"
+          url: /Ⅱ.=프레임워크_01.=Spring_2.=Spring=Boot_1)=MVC패턴=구현_05.=Repository에서=java파일=생성.html
+          output: web
+
+        - title: "&emsp;06. Service에서 java파일 생성"
+          url: /Ⅱ.=프레임워크_01.=Spring_2.=Spring=Boot_1)=MVC패턴=구현_06.=Service에서=java파일=생성.html
+          output: web
+
+        - title: "&emsp;07. Impl에서 java파일 생성"
+          url: /Ⅱ.=프레임워크_01.=Spring_2.=Spring=Boot_1)=MVC패턴=구현_07.=Impl에서=java파일=생성.html
+          output: web
+
+        - title: "&emsp;08. Controller에서 java파일 생성"
+          url: /Ⅱ.=프레임워크_01.=Spring_2.=Spring=Boot_1)=MVC패턴=구현_08.=Controller에서=java파일=생성.html
+          output: web
+
+        - title: "&emsp;09. Controller에서 Rest.java파일 생성"
+          url: /Ⅱ.=프레임워크_01.=Spring_2.=Spring=Boot_1)=MVC패턴=구현_09.=Controller에서=Rest.java파일=생성.html
+          output: web
+
+        - title: "&emsp;10. Sql에 ~sql.xml 쿼리 작성"
+          url: /Ⅱ.=프레임워크_01.=Spring_2.=Spring=Boot_1)=MVC패턴=구현_10.=Sql에=~sql.xml=쿼리=작성.html
+          output: web
+
+        - title: "&emsp;11. Template에 html 파일 생성"
+          url: /Ⅱ.=프레임워크_01.=Spring_2.=Spring=Boot_1)=MVC패턴=구현_11.=Template에=html=파일=생성.html
+          output: web
+        
+
+  - title: 02. MyBatis
+    output: web
+    folderitems: 
+
+      - title: 개요
+        url: /Ⅱ.=프레임워크_02.=MyBatis_개요.html
+        output: web
+
+      - title: 1. 구조
+        output: web
+        type: subfolder
+        subfolderitems : 
+
+        - title: "MyBatis-Spring"
+          url: /Ⅱ.=프레임워크_02.=MyBatis_1.=구조_MyBatis-Spring.html
+          output: web
+
+        - title: "개요"
+          url: /Ⅱ.=프레임워크_02.=MyBatis_1.=구조_개요.html
+          output: web
+
+      - title: 2. 적용
+        output: web
+        type: subfolder
+        subfolderitems : 
+
+        - title: "사용"
+          url: /Ⅱ.=프레임워크_02.=MyBatis_2.=적용_사용.html
+          output: web
+
+        - title: "설정"
+          url: /Ⅱ.=프레임워크_02.=MyBatis_2.=적용_설정.html
+          output: web
+
+      - title: 3. 문법
+        output: web
+        type: subfolder
+        subfolderitems : 
+
+        - title: "개요"
+          url: /Ⅱ.=프레임워크_02.=MyBatis_3.=문법_개요.html
+          output: web
+
+        - title: "기본 문법"
+          url: /Ⅱ.=프레임워크_02.=MyBatis_3.=문법_기본=문법.html
+          output: web
+
+        - title: "응용"
+          url: /Ⅱ.=프레임워크_02.=MyBatis_3.=문법_응용.html
+          output: web
+
+        - title: "자바 API"
+          url: /Ⅱ.=프레임워크_02.=MyBatis_3.=문법_자바=API.html
+          output: web
+
+        - title: "파라미터 바인딩"
+          url: /Ⅱ.=프레임워크_02.=MyBatis_3.=문법_파라미터=바인딩.html
+          output: web
+
+  - title: 03. JUnit
+    output: web
+    folderitems: 
+
+      - title: 개요
+        url: /Ⅱ.=프레임워크_03.=JUnit_개요.html
+        output: web
+
+      - title: 사용
+        url: /Ⅱ.=프레임워크_03.=JUnit_사용.html
+        output: web
+
+  - title: 04. Hibernate
+    output: web
+    folderitems: 
+
+      - title: 개요
+        url: /Ⅱ.=프레임워크_04.=Hibernate_개요.html
+        output: web
+
+      - title: 사용
+        url: /Ⅱ.=프레임워크_04.=Hibernate_사용.html
+        output: web
+

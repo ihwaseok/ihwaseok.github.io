@@ -1,0 +1,53 @@
+entries:
+- title: sidebar
+  product: Ⅲ. 개발도구
+  folders: 
+
+  - title: 01. Eclipse
+    output: web
+    folderitems: 
+
+      - title: 개요
+        url: /Ⅲ.=개발도구_01.=Eclipse_개요.html
+        output: web
+
+      - title: 디버그
+        url: /Ⅲ.=개발도구_01.=Eclipse_디버그.html
+        output: web
+
+  - title: 02. Tortoise
+    output: web
+    folderitems: 
+
+      - title: 개요
+        url: /Ⅲ.=개발도구_02.=Tortoise_개요.html
+        output: web
+
+  - title: 03. VisualSVN Server
+    output: web
+    folderitems: 
+
+      - title: 개요
+        url: /Ⅲ.=개발도구_03.=VisualSVN=Server_개요.html
+        output: web
+
+  - title: 04. MS SQL Server
+    output: web
+    folderitems: 
+
+      - title: 개요
+        url: /Ⅲ.=개발도구_04.=MS=SQL=Server_개요.html
+        output: web
+
+  - title: 05. SSMS
+    output: web
+    folderitems: 
+
+      - title: 개요
+        url: /Ⅲ.=개발도구_05.=SSMS_개요.html
+        output: web
+
+      - title: 인증방법 변경
+        url: /Ⅲ.=개발도구_05.=SSMS_인증방법=변경.html
+        output: web
+
