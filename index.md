@@ -6,8 +6,7 @@ latitude: 37.24108640
 longitude: 127.17755370
 altitude: 0.0000
 sidebar: mydoc_sidebar1
-permalink: Ⅰ.=프로그래밍=언어_개요.html
-folder: mydoc
+permalink: index.html
 ---
 
 ## 프로그래밍 언어

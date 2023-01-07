@@ -74,7 +74,7 @@ defaults:
       comments: true
       # if you don't want to use Commento.io and just hide comments, change true to false wherever you see the comments property
       search: true
-      sidebar: home_sidebar
+      sidebar: mydoc_sidebar1
       topnav: topnav
   -
     scope:
@@ -94,13 +94,12 @@ defaults:
       comments: true
       # if you don't want to use Commento.io and just hide comments, change true to false wherever you see the comments property
       search: true
-      sidebar: home_sidebar
+      sidebar: mydoc_sidebar1
       topnav: topnav
 
 # these are defaults used for the frontmatter for these file types
 
 sidebars:
-- home_sidebar
 - mydoc_sidebar1
 - product1_sidebar
 - product2_sidebar
