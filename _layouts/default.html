@@ -97,7 +97,13 @@
 <!-- /.container -->
 </div>
 <!-- /#main -->
-    </div>
+</div>
+
+<script type="module">
+  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@9/dist/mermaid.esm.min.mjs';
+  mermaid.initialize({ startOnLoad: true });
+  mermaid.init({}, '.language-mermaid');
+</script>
 
 </body>
 {% if site.google_analytics %}
