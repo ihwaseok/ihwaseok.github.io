@@ -286,9 +286,9 @@ entries:
     output: web
     folderitems: 
 
-        - title: " 모델링"
-          url: /Ⅰ.=프로그래밍=언어_03.=SQL_RDB=_=모델링.html
-          output: web
+      - title: RDB - 모델링
+        url: /Ⅰ.=프로그래밍=언어_03.=SQL_RDB=-=모델링.html
+        output: web
 
       - title: RDB
         url: /Ⅰ.=프로그래밍=언어_03.=SQL_RDB.html
