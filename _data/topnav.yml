@@ -13,11 +13,8 @@ topnav:
     - title: Ⅲ. 개발도구
       url: //Ⅲ.=개발도구_01.=Eclipse_개요.html
       
-    - title: Ⅳ. SCM
-      url: //#
-      
-    - title: Ⅴ. 기타
-      url: //Ⅴ.=기타_Gitpage=변환.html
+    - title: Ⅳ. 기타
+      url: //Ⅳ.=기타_Gitpage=변환.html
       
     - title: GitHub
       external_url: https://github.com/ihwaseok/ihwaseok.github.io

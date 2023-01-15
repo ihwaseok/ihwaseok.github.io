@@ -51,3 +51,11 @@ entries:
         url: /Ⅲ.=개발도구_05.=SSMS_인증방법=변경.html
         output: web
 
+  - title: 06. Tomcat
+    output: web
+    folderitems: 
+
+      - title: 개요
+        url: /Ⅲ.=개발도구_06.=Tomcat_개요.html
+        output: web
+

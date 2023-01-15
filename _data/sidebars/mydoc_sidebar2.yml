@@ -113,7 +113,6 @@ entries:
         - title: "&emsp;11. Template에 html 파일 생성"
           url: /Ⅱ.=프레임워크_01.=Spring_2.=Spring=Boot_1)=MVC패턴=구현_11.=Template에=html=파일=생성.html
           output: web
-        
 
   - title: 02. MyBatis
     output: web
@@ -196,5 +195,21 @@ entries:
 
       - title: 사용
         url: /Ⅱ.=프레임워크_04.=Hibernate_사용.html
+        output: web
+
+  - title: 05. Log4j
+    output: web
+    folderitems: 
+
+      - title: 개요
+        url: /Ⅱ.=프레임워크_05.=Log4j_개요.html
+        output: web
+
+      - title: 사용
+        url: /Ⅱ.=프레임워크_05.=Log4j_사용.html
+        output: web
+
+      - title: 적용
+        url: /Ⅱ.=프레임워크_05.=Log4j_적용.html
         output: web
 

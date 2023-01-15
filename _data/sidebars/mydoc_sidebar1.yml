@@ -115,6 +115,47 @@ entries:
           url: /Ⅰ.=프로그래밍=언어_01.=Java_1.=API_4)=어노테이션_커스텀=어노테이션.html
           output: web
 
+      - title: 2. 템플릿 엔진
+        output: web
+        type: subfolder
+        subfolderitems : 
+
+        - title: "개요"
+          url: /Ⅰ.=프로그래밍=언어_01.=Java_2.=템플릿=엔진_개요.html
+          output: web
+
+        - title: "1) JSP"
+          url: /#
+          output: web
+
+        - title: "&emsp;&emsp;개요"
+          url: /Ⅰ.=프로그래밍=언어_01.=Java_2.=템플릿=엔진_1)=JSP_개요.html
+          output: web
+
+        - title: "&emsp;&emsp;구조"
+          url: /Ⅰ.=프로그래밍=언어_01.=Java_2.=템플릿=엔진_1)=JSP_구조.html
+          output: web
+
+        - title: "&emsp;&emsp;기본 문법"
+          url: /Ⅰ.=프로그래밍=언어_01.=Java_2.=템플릿=엔진_1)=JSP_기본=문법.html
+          output: web
+
+        - title: "2) Thymeleaf"
+          url: /#
+          output: web
+
+        - title: "&emsp;&emsp;개요"
+          url: /Ⅰ.=프로그래밍=언어_01.=Java_2.=템플릿=엔진_2)=Thymeleaf_개요.html
+          output: web
+
+        - title: "&emsp;&emsp;구조"
+          url: /Ⅰ.=프로그래밍=언어_01.=Java_2.=템플릿=엔진_2)=Thymeleaf_구조.html
+          output: web
+
+        - title: "&emsp;&emsp;기본 문법"
+          url: /Ⅰ.=프로그래밍=언어_01.=Java_2.=템플릿=엔진_2)=Thymeleaf_기본=문법.html
+          output: web
+
   - title: 02. Java Script
     output: web
     folderitems: 
@@ -185,6 +226,10 @@ entries:
           url: /Ⅰ.=프로그래밍=언어_02.=Java=Script_2.=라이브러리_1)=jQuery_기본=문법.html
           output: web
 
+        - title: "&emsp;&emsp;디자인 패턴"
+          url: /Ⅰ.=프로그래밍=언어_02.=Java=Script_2.=라이브러리_1)=jQuery_디자인=패턴.html
+          output: web
+
         - title: "&emsp;&emsp;응용"
           url: /Ⅰ.=프로그래밍=언어_02.=Java=Script_2.=라이브러리_1)=jQuery_응용.html
           output: web
@@ -219,5 +264,54 @@ entries:
 
         - title: "3) jsTree"
           url: /#
+          output: web
+
+        - title: "&emsp;&emsp;개요"
+          url: /Ⅰ.=프로그래밍=언어_02.=Java=Script_2.=라이브러리_3)=jsTree_개요.html
+          output: web
+
+        - title: "&emsp;&emsp;기본 사용"
+          url: /Ⅰ.=프로그래밍=언어_02.=Java=Script_2.=라이브러리_3)=jsTree_기본=사용.html
+          output: web
+
+        - title: "&emsp;&emsp;응용"
+          url: /Ⅰ.=프로그래밍=언어_02.=Java=Script_2.=라이브러리_3)=jsTree_응용.html
+          output: web
+
+        - title: "&emsp;&emsp;적용"
+          url: /Ⅰ.=프로그래밍=언어_02.=Java=Script_2.=라이브러리_3)=jsTree_적용.html
+          output: web
+
+  - title: 03. SQL
+    output: web
+    folderitems: 
+
+        - title: " 모델링"
+          url: /Ⅰ.=프로그래밍=언어_03.=SQL_RDB=_=모델링.html
+          output: web
+
+      - title: RDB
+        url: /Ⅰ.=프로그래밍=언어_03.=SQL_RDB.html
+        output: web
+
+      - title: 개요
+        url: /Ⅰ.=프로그래밍=언어_03.=SQL_개요.html
+        output: web
+
+      - title: 1. ANSI SQL
+        output: web
+        type: subfolder
+        subfolderitems : 
+
+        - title: "DDL"
+          url: /Ⅰ.=프로그래밍=언어_03.=SQL_1.=ANSI=SQL_DDL.html
+          output: web
+
+        - title: "DML"
+          url: /Ⅰ.=프로그래밍=언어_03.=SQL_1.=ANSI=SQL_DML.html
+          output: web
+
+        - title: "개요"
+          url: /Ⅰ.=프로그래밍=언어_03.=SQL_1.=ANSI=SQL_개요.html
           output: web
 

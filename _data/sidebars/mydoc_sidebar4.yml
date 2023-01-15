@@ -1,5 +1,37 @@
 entries:
 - title: sidebar
-  product: Ⅳ. SCM
+  product: Ⅳ. 기타
   folders: 
+
+  - title: Gitpage 변환
+    url: /Ⅳ.=기타_Gitpage=변환.html
+    output: web
+    type: single
+
+  - title: 유용한 링크
+    url: /Ⅳ.=기타_유용한=링크.html
+    output: web
+    type: single
+
+  - title: 정규 표현식
+    url: /Ⅳ.=기타_정규=표현식.html
+    output: web
+    type: single
+
+  - title: 조플린 사용시 주요 문법
+    url: /Ⅳ.=기타_조플린=사용시=주요=문법.html
+    output: web
+    type: single
+
+  - title: 01. SCM
+    output: web
+    folderitems: 
+
+      - title: 개요
+        url: /Ⅳ.=기타_01.=SCM_개요.html
+        output: web
+
+      - title: 기본요소
+        url: /Ⅳ.=기타_01.=SCM_기본요소.html
+        output: web
 
