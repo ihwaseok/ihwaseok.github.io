@@ -298,10 +298,22 @@ entries:
         url: /Ⅰ.=프로그래밍=언어_03.=SQL_개요.html
         output: web
 
+      - title: 옵티마이저
+        url: /Ⅰ.=프로그래밍=언어_03.=SQL_옵티마이저.html
+        output: web
+
       - title: 1. ANSI SQL
         output: web
         type: subfolder
         subfolderitems : 
+
+        - title: "CTE"
+          url: /Ⅰ.=프로그래밍=언어_03.=SQL_1.=ANSI=SQL_CTE.html
+          output: web
+
+        - title: "DCL"
+          url: /Ⅰ.=프로그래밍=언어_03.=SQL_1.=ANSI=SQL_DCL.html
+          output: web
 
         - title: "DDL"
           url: /Ⅰ.=프로그래밍=언어_03.=SQL_1.=ANSI=SQL_DDL.html
@@ -311,7 +323,89 @@ entries:
           url: /Ⅰ.=프로그래밍=언어_03.=SQL_1.=ANSI=SQL_DML.html
           output: web
 
+        - title: "TCL"
+          url: /Ⅰ.=프로그래밍=언어_03.=SQL_1.=ANSI=SQL_TCL.html
+          output: web
+
         - title: "개요"
           url: /Ⅰ.=프로그래밍=언어_03.=SQL_1.=ANSI=SQL_개요.html
+          output: web
+
+        - title: "그룹화"
+          url: /Ⅰ.=프로그래밍=언어_03.=SQL_1.=ANSI=SQL_그룹화.html
+          output: web
+
+        - title: "락"
+          url: /Ⅰ.=프로그래밍=언어_03.=SQL_1.=ANSI=SQL_락.html
+          output: web
+
+        - title: "뷰"
+          url: /Ⅰ.=프로그래밍=언어_03.=SQL_1.=ANSI=SQL_뷰.html
+          output: web
+
+        - title: "서브 쿼리"
+          url: /Ⅰ.=프로그래밍=언어_03.=SQL_1.=ANSI=SQL_서브=쿼리.html
+          output: web
+
+        - title: "윈도우 함수"
+          url: /Ⅰ.=프로그래밍=언어_03.=SQL_1.=ANSI=SQL_윈도우=함수.html
+          output: web
+
+        - title: "인덱스"
+          url: /Ⅰ.=프로그래밍=언어_03.=SQL_1.=ANSI=SQL_인덱스.html
+          output: web
+
+        - title: "조건절"
+          url: /Ⅰ.=프로그래밍=언어_03.=SQL_1.=ANSI=SQL_조건절.html
+          output: web
+
+        - title: "조인"
+          url: /Ⅰ.=프로그래밍=언어_03.=SQL_1.=ANSI=SQL_조인.html
+          output: web
+
+        - title: "집합 연산자"
+          url: /Ⅰ.=프로그래밍=언어_03.=SQL_1.=ANSI=SQL_집합=연산자.html
+          output: web
+
+        - title: "쿼리 성능"
+          url: /Ⅰ.=프로그래밍=언어_03.=SQL_1.=ANSI=SQL_쿼리=성능.html
+          output: web
+
+      - title: 2. MS SQL
+        output: web
+        type: subfolder
+        subfolderitems : 
+
+        - title: "개요"
+          url: /Ⅰ.=프로그래밍=언어_03.=SQL_2.=MS=SQL_개요.html
+          output: web
+
+        - title: "기본 자료형"
+          url: /Ⅰ.=프로그래밍=언어_03.=SQL_2.=MS=SQL_기본=자료형.html
+          output: web
+
+        - title: "내장 함수"
+          url: /Ⅰ.=프로그래밍=언어_03.=SQL_2.=MS=SQL_내장=함수.html
+          output: web
+
+        - title: "응용"
+          url: /Ⅰ.=프로그래밍=언어_03.=SQL_2.=MS=SQL_응용.html
+          output: web
+
+        - title: "절차형 SQL"
+          url: /Ⅰ.=프로그래밍=언어_03.=SQL_2.=MS=SQL_절차형=SQL.html
+          output: web
+
+        - title: "쿼리 설계 - 여러 테이블 집계"
+          url: /Ⅰ.=프로그래밍=언어_03.=SQL_2.=MS=SQL_쿼리=설계=-=여러=테이블=집계.html
+          output: web
+
+      - title: 3. Oracle
+        output: web
+        type: subfolder
+        subfolderitems : 
+
+        - title: "개요"
+          url: /Ⅰ.=프로그래밍=언어_03.=SQL_3.=Oracle_개요.html
           output: web
 
