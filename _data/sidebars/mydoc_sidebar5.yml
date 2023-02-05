@@ -1,0 +1,70 @@
+entries:
+- title: sidebar
+  product: Ⅴ. 기타
+  folders: 
+
+  - title: Gitpage 변환
+    url: /Ⅴ.=기타_Gitpage=변환.html
+    output: web
+    type: single
+
+  - title: 유용한 링크
+    url: /Ⅴ.=기타_유용한=링크.html
+    output: web
+    type: single
+
+  - title: 정규 표현식
+    url: /Ⅴ.=기타_정규=표현식.html
+    output: web
+    type: single
+
+  - title: 조플린 사용시 주요 문법
+    url: /Ⅴ.=기타_조플린=사용시=주요=문법.html
+    output: web
+    type: single
+
+  - title: 01. SCM
+    output: web
+    folderitems: 
+
+      - title: 개요
+        url: /Ⅴ.=기타_01.=SCM_개요.html
+        output: web
+
+      - title: 기본요소
+        url: /Ⅴ.=기타_01.=SCM_기본요소.html
+        output: web
+
+  - title: 02. 게임 제작
+    output: web
+    folderitems: 
+
+      - title: 1. MyFirstGame
+        output: web
+        type: subfolder
+        subfolderitems : 
+
+        - title: "개요"
+          url: /Ⅴ.=기타_02.=게임=제작_1.=MyFirstGame_개요.html
+          output: web
+
+        - title: "기본사항"
+          url: /Ⅴ.=기타_02.=게임=제작_1.=MyFirstGame_기본사항.html
+          output: web
+
+        - title: "화면 - 게임오버"
+          url: /Ⅴ.=기타_02.=게임=제작_1.=MyFirstGame_화면=-=게임오버.html
+          output: web
+
+        - title: "화면 - 메뉴"
+          url: /Ⅴ.=기타_02.=게임=제작_1.=MyFirstGame_화면=-=메뉴.html
+          output: web
+
+        - title: "화면 - 인 게임"
+          url: /Ⅴ.=기타_02.=게임=제작_1.=MyFirstGame_화면=-=인=게임.html
+          output: web
+
+  - title: XX. 미분류 파일
+    output: web
+    folderitems: 
+

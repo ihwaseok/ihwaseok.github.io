@@ -1,37 +1,22 @@
 entries:
 - title: sidebar
-  product: Ⅳ. 기타
+  product: Ⅳ. 토이 프로젝트
   folders: 
 
-  - title: Gitpage 변환
-    url: /Ⅳ.=기타_Gitpage=변환.html
-    output: web
-    type: single
-
-  - title: 유용한 링크
-    url: /Ⅳ.=기타_유용한=링크.html
-    output: web
-    type: single
-
-  - title: 정규 표현식
-    url: /Ⅳ.=기타_정규=표현식.html
-    output: web
-    type: single
-
-  - title: 조플린 사용시 주요 문법
-    url: /Ⅳ.=기타_조플린=사용시=주요=문법.html
-    output: web
-    type: single
-
-  - title: 01. SCM
+  - title: 01. 노트 웹사이트
     output: web
     folderitems: 
 
       - title: 개요
-        url: /Ⅳ.=기타_01.=SCM_개요.html
+        url: /Ⅳ.=토이=프로젝트_01.=노트=웹사이트_개요.html
         output: web
 
-      - title: 기본요소
-        url: /Ⅳ.=기타_01.=SCM_기본요소.html
+      - title: 1. 진행 과정
         output: web
+        type: subfolder
+        subfolderitems : 
+
+        - title: "미분류"
+          url: /Ⅳ.=토이=프로젝트_01.=노트=웹사이트_1.=진행=과정_미분류.html
+          output: web
 

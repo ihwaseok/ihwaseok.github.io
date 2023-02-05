@@ -1,6 +1,6 @@
 entries:
 - title: sidebar
-  product: Ⅲ. 개발도구
+  product: Ⅲ. 개발환경
   folders: 
 
   - title: 01. Eclipse
@@ -8,11 +8,11 @@ entries:
     folderitems: 
 
       - title: 개요
-        url: /Ⅲ.=개발도구_01.=Eclipse_개요.html
+        url: /Ⅲ.=개발환경_01.=Eclipse_개요.html
         output: web
 
       - title: 디버그
-        url: /Ⅲ.=개발도구_01.=Eclipse_디버그.html
+        url: /Ⅲ.=개발환경_01.=Eclipse_디버그.html
         output: web
 
   - title: 02. Tortoise
@@ -20,7 +20,7 @@ entries:
     folderitems: 
 
       - title: 개요
-        url: /Ⅲ.=개발도구_02.=Tortoise_개요.html
+        url: /Ⅲ.=개발환경_02.=Tortoise_개요.html
         output: web
 
   - title: 03. VisualSVN Server
@@ -28,7 +28,7 @@ entries:
     folderitems: 
 
       - title: 개요
-        url: /Ⅲ.=개발도구_03.=VisualSVN=Server_개요.html
+        url: /Ⅲ.=개발환경_03.=VisualSVN=Server_개요.html
         output: web
 
   - title: 04. MS SQL Server
@@ -36,7 +36,7 @@ entries:
     folderitems: 
 
       - title: 개요
-        url: /Ⅲ.=개발도구_04.=MS=SQL=Server_개요.html
+        url: /Ⅲ.=개발환경_04.=MS=SQL=Server_개요.html
         output: web
 
   - title: 05. SSMS
@@ -44,11 +44,11 @@ entries:
     folderitems: 
 
       - title: 개요
-        url: /Ⅲ.=개발도구_05.=SSMS_개요.html
+        url: /Ⅲ.=개발환경_05.=SSMS_개요.html
         output: web
 
       - title: 인증방법 변경
-        url: /Ⅲ.=개발도구_05.=SSMS_인증방법=변경.html
+        url: /Ⅲ.=개발환경_05.=SSMS_인증방법=변경.html
         output: web
 
   - title: 06. Tomcat
@@ -56,6 +56,26 @@ entries:
     folderitems: 
 
       - title: 개요
-        url: /Ⅲ.=개발도구_06.=Tomcat_개요.html
+        url: /Ⅲ.=개발환경_06.=Tomcat_개요.html
+        output: web
+
+  - title: 07. Node.js
+    output: web
+    folderitems: 
+
+      - title: 개요
+        url: /Ⅲ.=개발환경_07.=Node.js_개요.html
+        output: web
+
+      - title: 적용
+        url: /Ⅲ.=개발환경_07.=Node.js_적용.html
+        output: web
+
+  - title: 08. Visual Studio Code
+    output: web
+    folderitems: 
+
+      - title: 개요
+        url: /Ⅲ.=개발환경_08.=Visual=Studio=Code_개요.html
         output: web
 

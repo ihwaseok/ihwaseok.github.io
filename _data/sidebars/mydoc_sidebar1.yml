@@ -409,3 +409,36 @@ entries:
           url: /Ⅰ.=프로그래밍=언어_03.=SQL_3.=Oracle_개요.html
           output: web
 
+      - title: 4. MySQL
+        output: web
+        type: subfolder
+        subfolderitems : 
+
+        - title: "개요"
+          url: /Ⅰ.=프로그래밍=언어_03.=SQL_4.=MySQL_개요.html
+          output: web
+
+  - title: 04. Type Script
+    output: web
+    folderitems: 
+
+      - title: 개요
+        url: /Ⅰ.=프로그래밍=언어_04.=Type=Script_개요.html
+        output: web
+
+      - title: 구조
+        url: /Ⅰ.=프로그래밍=언어_04.=Type=Script_구조.html
+        output: web
+
+      - title: 기본 문법
+        url: /Ⅰ.=프로그래밍=언어_04.=Type=Script_기본=문법.html
+        output: web
+
+      - title: 기본 자료형
+        url: /Ⅰ.=프로그래밍=언어_04.=Type=Script_기본=자료형.html
+        output: web
+
+      - title: 기본 키워드
+        url: /Ⅰ.=프로그래밍=언어_04.=Type=Script_기본=키워드.html
+        output: web
+
